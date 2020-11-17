@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemcacheExample", "MemcacheExample.csproj", "{1E59C2BC-7399-4124-9E45-FDAC996D1543}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{63B86D00-B67F-4517-8B54-1FF91687C25D}"
+	ProjectSection(SolutionItems) = preProject
+		initMemcached.bat = initMemcached.bat
+		memcache.compose.yml = memcache.compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E59C2BC-7399-4124-9E45-FDAC996D1543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E59C2BC-7399-4124-9E45-FDAC996D1543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E59C2BC-7399-4124-9E45-FDAC996D1543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E59C2BC-7399-4124-9E45-FDAC996D1543}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51A88EA4-6BCC-4373-A888-45AF17529424}
+	EndGlobalSection
+EndGlobal
